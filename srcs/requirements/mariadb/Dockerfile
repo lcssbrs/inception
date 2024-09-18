@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm-20240722
 
 RUN apt-get update -y && \
     apt install mariadb-server -y
