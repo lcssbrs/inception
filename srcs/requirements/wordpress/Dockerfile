@@ -1,4 +1,4 @@
-FROM debian:bookworm-20240722
+FROM debian:bookworm-20250929
 
 RUN apt-get update -y && \
     apt-get install -y curl && \
